@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <section>
+        <div class="toptext">
+            <p>É só um botão</p>
+        </div>
+    </section>
+
+    <section>
+        <button class="btn" onclick="playSound()">Click</button>
+        <audio id="meuAudio" src="midia/toctoc.mp3"></audio>
+        <script>
+            var meuAudio = document.getElementById("meuAudio");
+
+            function playSound() {
+                meuAudio.play();
+            }
+        </script>
+
+    </section>
+    <div class="space"></div>
+    <section>
+        <div class="hdtxt">
+            <p>Será?</p>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
